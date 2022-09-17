@@ -13,7 +13,7 @@ namespace PasswordGenerator_UI
         {
             Generate generate = new Generate();
 
-            textBox1.Text = $"PASSWORD IS : {generate.GenerateAndStorePassword(@"E:\CODE REPOS\PasswordGenerator\Password Generator\Password.txt")}";
+            textBox1.Text = $"PASSWORD IS : {generate.GenerateAndStorePassword($@"C:\Users\{Environment.UserName}\Documents\Password.txt")}";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -28,7 +28,7 @@ namespace PasswordGenerator_UI
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            richTextBox1.Text = File.ReadAllText(@"E:\CODE REPOS\PasswordGenerator\Password Generator\Password.txt");
+            richTextBox1.Text = File.ReadAllText($@"C:\Users\{Environment.UserName}\Documents\Password.txt");
 
         }
 
