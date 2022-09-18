@@ -13,7 +13,7 @@ namespace PasswordGenerator_UI
         {
             Generate generate = new Generate();
 
-            textBox1.Text = $"PASSWORD IS : {generate.GenerateAndStorePassword($@"C:\Users\{Environment.UserName}\Documents\Password.txt")}";
+            textBox1.Text = $"Password is: {generate.GenerateAndStorePassword($@"C:\Users\{Environment.UserName}\Documents\Password.txt")}";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

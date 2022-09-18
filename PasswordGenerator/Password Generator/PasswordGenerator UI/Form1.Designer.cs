@@ -46,15 +46,17 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(157, 60);
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.Location = new System.Drawing.Point(117, 59);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(197, 23);
+            this.textBox1.Size = new System.Drawing.Size(272, 39);
             this.textBox1.TabIndex = 2;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // richTextBox1
             // 
             this.richTextBox1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.richTextBox1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.richTextBox1.Location = new System.Drawing.Point(-1, 213);
             this.richTextBox1.Name = "richTextBox1";
